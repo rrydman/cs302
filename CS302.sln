@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS302", "CS302\CS302.vcxproj", "{F68C6635-BAAD-4A3A-BAE2-77336BCD1EA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework2", "HomeworkOne\HomeworkOne.vcxproj", "{3F5490CC-7685-4F75-8FE5-790891C49431}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework4", "Homework4\Homework4.vcxproj", "{4E70D452-4C82-4694-85A2-0FDB8EE9C23D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework3", "Homework3\Homework3.vcxproj", "{F9B63EA1-A815-4E07-AF76-1C5990B4BD38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework5", "Homework5\Homework5.vcxproj", "{E8FC00DF-85ED-46FA-BBA2-6F9CDD917A34}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework6", "Homework6\Homework6.vcxproj", "{BD581C3D-7501-4514-A52D-DE702480CBF8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rrydman.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CS302\\CS302.vcxproj
+		SccProjectName1 = CS302
+		SccLocalPath1 = CS302
+		SccProjectUniqueName2 = HomeworkOne\\HomeworkOne.vcxproj
+		SccProjectName2 = HomeworkOne
+		SccLocalPath2 = HomeworkOne
+		SccProjectUniqueName3 = Homework4\\Homework4.vcxproj
+		SccProjectName3 = Homework4
+		SccLocalPath3 = Homework4
+		SccProjectUniqueName4 = Homework3\\Homework3.vcxproj
+		SccProjectName4 = Homework3
+		SccLocalPath4 = Homework3
+		SccProjectUniqueName5 = Homework5\\Homework5.vcxproj
+		SccProjectName5 = Homework5
+		SccLocalPath5 = Homework5
+		SccProjectUniqueName6 = Homework6\\Homework6.vcxproj
+		SccProjectName6 = Homework6
+		SccLocalPath6 = Homework6
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F68C6635-BAAD-4A3A-BAE2-77336BCD1EA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F68C6635-BAAD-4A3A-BAE2-77336BCD1EA9}.Debug|Win32.Build.0 = Debug|Win32
+		{F68C6635-BAAD-4A3A-BAE2-77336BCD1EA9}.Release|Win32.ActiveCfg = Release|Win32
+		{F68C6635-BAAD-4A3A-BAE2-77336BCD1EA9}.Release|Win32.Build.0 = Release|Win32
+		{3F5490CC-7685-4F75-8FE5-790891C49431}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F5490CC-7685-4F75-8FE5-790891C49431}.Debug|Win32.Build.0 = Debug|Win32
+		{3F5490CC-7685-4F75-8FE5-790891C49431}.Release|Win32.ActiveCfg = Release|Win32
+		{3F5490CC-7685-4F75-8FE5-790891C49431}.Release|Win32.Build.0 = Release|Win32
+		{4E70D452-4C82-4694-85A2-0FDB8EE9C23D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E70D452-4C82-4694-85A2-0FDB8EE9C23D}.Debug|Win32.Build.0 = Debug|Win32
+		{4E70D452-4C82-4694-85A2-0FDB8EE9C23D}.Release|Win32.ActiveCfg = Release|Win32
+		{4E70D452-4C82-4694-85A2-0FDB8EE9C23D}.Release|Win32.Build.0 = Release|Win32
+		{F9B63EA1-A815-4E07-AF76-1C5990B4BD38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9B63EA1-A815-4E07-AF76-1C5990B4BD38}.Debug|Win32.Build.0 = Debug|Win32
+		{F9B63EA1-A815-4E07-AF76-1C5990B4BD38}.Release|Win32.ActiveCfg = Release|Win32
+		{F9B63EA1-A815-4E07-AF76-1C5990B4BD38}.Release|Win32.Build.0 = Release|Win32
+		{E8FC00DF-85ED-46FA-BBA2-6F9CDD917A34}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8FC00DF-85ED-46FA-BBA2-6F9CDD917A34}.Debug|Win32.Build.0 = Debug|Win32
+		{E8FC00DF-85ED-46FA-BBA2-6F9CDD917A34}.Release|Win32.ActiveCfg = Release|Win32
+		{E8FC00DF-85ED-46FA-BBA2-6F9CDD917A34}.Release|Win32.Build.0 = Release|Win32
+		{BD581C3D-7501-4514-A52D-DE702480CBF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD581C3D-7501-4514-A52D-DE702480CBF8}.Debug|Win32.Build.0 = Debug|Win32
+		{BD581C3D-7501-4514-A52D-DE702480CBF8}.Release|Win32.ActiveCfg = Release|Win32
+		{BD581C3D-7501-4514-A52D-DE702480CBF8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

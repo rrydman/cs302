@@ -1,0 +1,35 @@
+#pragma once
+
+template<class object>
+class Stack{
+public:
+	Stack();
+	Stack(const Stack &rhs);
+	~Stack();
+	bool IsEmpty() const;
+	bool IsFull() const;
+	void Push(const object &x);
+	void Pop();
+	const object &Top() const;
+	object TopAndPop();
+	const Stack &operator=(const Stack &rhs);
+	//--------
+	// need to next element/etc - same as linked list implementation
+	//--------
+};
+
+//Construct Stack (using linked list)
+template<class object>
+Stack<object>::Push(const object &x){
+	TopOfStack = new ListNode(x, TopOfStack);
+};
+
+//Pop (remove)
+template<class object>
+void Stack<object>::Pop(){
+	if (IsEmpty())
+		throw underflow();
+	ListNode *OldTop = TopOfStack; // pointer
+	TopOfStack = TopOfStack->next;
+	delete OldTop;
+};
